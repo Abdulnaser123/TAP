@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c5c5c5;
+  font-family: 'Mulish', sans-serif;
+  font-family: 'Rubik', sans-serif;
+}
+.mainCard {
+  width: 250px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  position: relative;
+  padding: 10px;
+}
+.mainCard::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  height: 10px;
+  width: 100%;
+  background-color: #8132a3;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.mainCard .avatar {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+img {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 50px;
+  border: 5px solid white;
+  outline: 2px solid #f6f5f5;
+}
+
+.info {
+  padding: 10px;
+}
+
+.info div div:first-of-type {
+  font-weight: bold;
+  font-size: 12px;
+}
+.info div div:nth-of-type(2) {
+  font-size: 14px;
+}
+hr {
+  margin: 20px auto;
+  border-color: #ffffff6b;
+}
