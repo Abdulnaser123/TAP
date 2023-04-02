@@ -12,5 +12,3 @@ function missingNumber(integers) {
   }
   return x;
 }
-//Abdelnasser Mustafa Ahmed Obeid
-// abodkar96@gmail.com
